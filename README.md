@@ -17,7 +17,7 @@ the LED on your blinds is breathing cyan - indicating it's connected and ready t
 
 ## Open source project
 
-###Requirements
+### Requirements
 
 1. [Android Studio 1.2](http://developer.android.com/sdk/index.html) or higher, and all the latest
 SDK components (Just launch the SDK Manager, wait for the progress bar at the bottom of the screen
@@ -33,5 +33,5 @@ run the app on a device.
 get a cup of coffee during this part.  And then drink that coffee slowly, perhaps while
 reading [this documentation on how to speed up your Android Studio install](http://tools.android.com/tech-docs/configuration#TOC-Increasing-IDE-Memory).
 
-###License
+### License
 Apache 2.0
