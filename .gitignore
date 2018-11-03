@@ -35,3 +35,8 @@ proguard/
 
 # IDE
 .idea
+*.iml
+
+# Test, debug
+app/src/androidTest/
+app/src/debug/
