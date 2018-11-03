@@ -1,0 +1,247 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.particle.android.sdk.climate.ClimateActivityFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/temperature_row">
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/imageTemperature"
+            android:src="@drawable/temperature_vector_small"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="6pt"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="@string/climate_temperature"
+            android:id="@+id/temperatureHeader"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageTemperature"
+            android:layout_toEndOf="@+id/imageTemperature"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:textSize="16pt"
+            android:id="@+id/temperatureValue"
+            android:gravity="start|center_vertical"
+            android:layout_below="@+id/temperatureHeader"
+            android:layout_toRightOf="@+id/imageTemperature"
+            android:layout_toEndOf="@+id/imageTemperature"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10pt"
+            android:textSize="6pt"
+            android:id="@+id/temperaturePreferred"
+            android:gravity="start"
+            android:layout_below="@+id/temperatureValue"
+            android:layout_toRightOf="@+id/imageTemperature"
+            android:layout_toEndOf="@+id/imageTemperature"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingStart="6pt"
+            android:paddingEnd="6pt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@color/shaded_background"
+        android:id="@+id/light_row">
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/imageLight"
+            android:src="@drawable/light_vector_small"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="6pt"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="@string/climate_light"
+            android:id="@+id/lightHeader"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageLight"
+            android:layout_toEndOf="@+id/imageLight"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:textSize="16pt"
+            android:id="@+id/lightValue"
+            android:gravity="start|center_vertical"
+            android:layout_below="@+id/lightHeader"
+            android:layout_toRightOf="@+id/imageLight"
+            android:layout_toEndOf="@+id/imageLight"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10pt"
+            android:textSize="6pt"
+            android:id="@+id/lightPreferred"
+            android:gravity="start"
+            android:layout_below="@+id/lightValue"
+            android:layout_toRightOf="@+id/imageLight"
+            android:layout_toEndOf="@+id/imageLight"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/humidity_row">
+
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/imageHumidity"
+            android:src="@drawable/humidity_vector_small"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="6pt"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="@string/climate_humidity"
+            android:id="@+id/humidityHeader"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageHumidity"
+            android:layout_toEndOf="@+id/imageHumidity"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:textSize="16pt"
+            android:id="@+id/humidityValue"
+            android:gravity="start|center_vertical"
+            android:layout_below="@+id/humidityHeader"
+            android:layout_toRightOf="@+id/imageHumidity"
+            android:layout_toEndOf="@+id/imageHumidity"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10pt"
+            android:textSize="6pt"
+            android:id="@+id/humidityPreferred"
+            android:gravity="start"
+            android:layout_below="@+id/humidityValue"
+            android:layout_toRightOf="@+id/imageHumidity"
+            android:layout_toEndOf="@+id/imageHumidity"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@color/shaded_background"
+        android:id="@+id/pressure_row">
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/imagePressure"
+            android:src="@drawable/pressure_vector_small"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="6pt"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="@string/climate_pressure"
+            android:id="@+id/pressureHeader"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imagePressure"
+            android:layout_toEndOf="@+id/imagePressure"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:textSize="16pt"
+            android:id="@+id/pressureValue"
+            android:gravity="start|center_vertical"
+            android:layout_below="@+id/pressureHeader"
+            android:layout_toRightOf="@+id/imagePressure"
+            android:layout_toEndOf="@+id/imagePressure"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10pt"
+            android:textSize="6pt"
+            android:id="@+id/pressurePreferred"
+            android:gravity="start"
+            android:layout_below="@+id/pressureValue"
+            android:layout_toRightOf="@+id/imagePressure"
+            android:layout_toEndOf="@+id/imagePressure"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="6pt"
+            android:paddingStart="6pt" />
+
+    </RelativeLayout>
+
+</LinearLayout>

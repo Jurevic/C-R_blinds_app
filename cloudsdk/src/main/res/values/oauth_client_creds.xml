@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+     User must edit client id credentials to match his app with Particle cloud API credentials
+    -->
+    <string name="oauth_client_id">svaapp-509</string>
+    <string name="oauth_client_secret">e4acc0376759ffa6f88bda0e23b2c7b3983a886a</string>
+</resources>

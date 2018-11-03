@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/action_device_rename"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        android:title="@string/rename_menu_title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@id/action_device_set_led_brightness"
+        android:title="@string/set_led_brightness"/>
+
+    <item
+        android:id="@id/action_device_unclaim"
+        android:title="@string/unclaim_device"/>
+
+</menu>

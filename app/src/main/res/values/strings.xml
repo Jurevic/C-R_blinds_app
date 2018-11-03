@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collect Reflect</string>
+    <string name="title_device_list">Devices</string>
+    <string name="title_device_detail">Device detail</string>
+    <string name="your_devices">Your Devices</string>
+    <string name="unnamed_device">(Unnamed device)</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="unclaim">Unclaim</string>
+    <string name="unclaim_device_dialog_content">Unclaim device?</string>
+    <string name="rename_menu_title">Rename</string>
+    <string name="flash">Flash</string>
+    <string name="set_led_brightness">Set LED brightness</string>
+    <string name="rename_device">Rename</string>
+    <string name="reflash_device">Reflash</string>
+    <string name="unclaim_device">Unclaim</string>
+    <string name="err_msg_device_is_offline">This device is offline, please turn it on and refresh in order to control it.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_blinds">Blinds</string>
+    <string name="title_activity_climate">Climate</string>
+
+    <string name="blinds_name">Blinds</string>
+    <string name="climate_name">Microclimate</string>
+    <string name="unknown_name">Not recognised</string>
+
+    <string name="climate_temperature">Temperature</string>
+    <string name="climate_light">Light</string>
+    <string name="climate_humidity">Humidity</string>
+    <string name="climate_pressure">Pressure</string>
+    <string name="climate_is">%1$s %2$s</string>
+    <string name="climate_priority_set_to">Priority set to %1$s</string>
+    <string name="climate_preferred">Preferred: %1$s %2$s</string>
+    <string name="climate_alert_title">Set preferred %1$s</string>
+    <string name="climate_alert_message">Adjust %1$s value</string>
+    <string name="climate_error_cannot_get_climate">Error updating data</string>
+    <string name="climate_error_cannot_set_priority">Cannot set specified priority</string>
+    <string name="climate_error_cannot_set_preferred_value">Cannot set preference</string>
+    <string name="climate_preferred_value_is_set">Preference set</string>
+
+    <string name="blinds_error_cannot_get_blinds">Error updating data</string>
+
+    <string name="temperature_m_units">\u2103</string>
+    <string name="light_m_units">Lux</string>
+    <string name="humidity_m_units">%</string>
+    <string name="pressure_m_units">kPa</string>
+
+    <string-array name="led_brightness_array">
+        <item>Bright</item>
+        <item>Normal</item>
+        <item>Dim</item>
+        <item>Off</item>
+    </string-array>
+
+    // Enables http logging
+    <string name="http_log_level">BASIC</string>
+    <string name="title_activity_blinds_setup">BlindsSetup</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- named colors from app spec -->
+    <color name="cyan">#00ACED</color>
+    <color name="emerald">#2ECC71</color>
+    <color name="sunflower">#F1C40F</color>
+    <color name="alizarin">#E74C3C</color>
+
+    <drawable name="selectable_background">?attr/selectableItemBackground</drawable>
+    <color name="shaded_background">#5222</color>
+
+</resources>
